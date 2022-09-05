@@ -1,17 +1,17 @@
 name: rx_widgets
 description: A package with stream based Flutter Widgets that facilitate an reactive programming style.
 version: 4.0.1
-author: Thomas Burkhart <burkhartsengineering@gmail.com>
 homepage: https://github.com/escamoteur/rx_widgets
 documentation:
 environment:
   sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=3.0.0"
 
 dependencies:
  flutter:
     sdk: flutter
 
- rx_command: ^6.0.0
+ rx_command: ^6.0.1
 
 dev_dependencies:
   flutter_test: 

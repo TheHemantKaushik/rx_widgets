@@ -7,20 +7,20 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.0
+  cupertino_icons: any
   rxdart : any
   json_annotation: any
-  http: ^0.13.1
-  rx_command: ^6.0.0
+  http: any
+  rx_command: any
   rx_widgets: 
     path: ../
  
 dev_dependencies: 
-  test: any
-  mockito: ^5.0.5
-  quiver: any
-  build_runner: any
-  json_serializable: 4.1.1
+  test:
+  mockito:
+  quiver:
+  build_runner:
+  json_serializable:
   flutter_test:
     sdk: flutter
 

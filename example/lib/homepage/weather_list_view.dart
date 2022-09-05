@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:rx_widget_demo/keys.dart';
 import 'package:rx_widget_demo/service/weather_entry.dart';

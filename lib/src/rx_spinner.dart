@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:rx_command/rx_command.dart';
 import 'package:rx_widgets/src/builder_functions.dart';
 import 'package:rx_widgets/src/widget_selector.dart';

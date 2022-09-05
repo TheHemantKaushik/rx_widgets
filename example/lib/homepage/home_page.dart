@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
                       buildEvents:
                           homePageModel.updateWeatherCommand.canExecute,
                       //We access our ViewModel through the inherited Widget
-                      onTrue: RaisedButton(
+                      onTrue: ElevatedButton(
                         key: AppKeys.updateButtonEnabled,
                         child: Text("Update"),
                         onPressed: () {
@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
                           homePageModel.updateWeatherCommand('');
                         },
                       ),
-                      onFalse: RaisedButton(
+                      onFalse: ElevatedButton(
                         key: AppKeys.updateButtonDisabled,
                         child: Text("Please Wait"),
                         onPressed: null,
